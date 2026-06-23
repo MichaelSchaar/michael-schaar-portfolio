@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter basename="/michael-schaar-portfolio">
+    <HashRouter basename="/michael-schaar-portfolio">
 
       <main className="page">
         <nav className="navbar">
@@ -30,7 +30,7 @@ function App() {
       </Routes>
   
       </main>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
