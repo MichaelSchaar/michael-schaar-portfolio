@@ -17,7 +17,7 @@ function Experience() {
 
         <img
           className="experience-image"
-          src="/ucsd-image.png"
+          src={`${import.meta.env.BASE_URL}ucsd-image.png`}
           alt="UC San Diego"
         />
       </div>
@@ -85,7 +85,7 @@ function Experience() {
 
         <img
           className="experience-image"
-          src="/wave.png"
+          src={`${import.meta.env.BASE_URL}wave.png`}
           alt="Ocean wave"
         />
       </div>
