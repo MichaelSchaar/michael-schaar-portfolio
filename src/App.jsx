@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/michael-schaar-portfolio">
 
       <main className="page">
         <nav className="navbar">

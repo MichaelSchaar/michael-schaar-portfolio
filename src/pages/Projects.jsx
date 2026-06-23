@@ -198,7 +198,7 @@ function Projects() {
                 <p className="project-tools">R • Tidyclust • ggplot2 • Data Analysis</p>
                 <div className="project-buttons">
                   <a
-                    href="/Team-Tibble-Presentation.html"
+                    href={`${import.meta.env.BASE_URL}Team-Tibble-Presentation.html`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="project-link"
