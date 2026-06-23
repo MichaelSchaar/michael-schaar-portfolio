@@ -59,10 +59,10 @@ function Experience() {
         <div className="resume-content">
 
           <div className="resume-viewer">
-            <iframe src="/resume.pdf#page=1&view=FitH" title="Michael Schaar Resume"></iframe>
+            <iframe src={`${import.meta.env.BASE_URL}resume.pdf#page=1&view=FitH`} title="Michael Schaar Resume"></iframe>
           </div>
 
-          <a className="download-resume" href="/resume.pdf" download>
+          <a className="download-resume" href={`${import.meta.env.BASE_URL}resume.pdf`} download>
             Download Resume
           </a>
         </div>
