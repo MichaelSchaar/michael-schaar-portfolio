@@ -572,6 +572,29 @@ h1 {
   }
 }
 
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 80px 5%;
+  }
+
+  .social-item {
+    min-width: 0;
+    width: 100%;
+    padding: 20px;
+    gap: 16px;
+  }
+
+  .social-item img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .social-item p {
+    font-size: 1rem;
+    word-break: break-word;
+  }
+}
+
 @media (max-width: 600px) {
   .navbar {
     padding: 14px 5%;
