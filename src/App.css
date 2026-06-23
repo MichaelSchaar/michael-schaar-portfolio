@@ -551,4 +551,38 @@ h1 {
     flex-direction: column;
   }
 
+@media (max-width: 768px) {
+  .resume-viewer {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-section,
+  .extracurricular-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .education-logo,
+  .wave-image {
+    width: 120px;
+    margin-top: 15px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 14px 5%;
+    gap: 12px 18px;
+    flex-wrap: wrap;
+  }
+
+  .navbar a {
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+  }
+}
+
 }
