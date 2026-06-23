@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <HashRouter basename="/michael-schaar-portfolio">
+    <HashRouter>
 
       <main className="page">
         <nav className="navbar">
