@@ -551,6 +551,7 @@ h1 {
     flex-direction: column;
   }
 
+
 @media (max-width: 768px) {
   .resume-viewer {
     display: none;
@@ -558,15 +559,14 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  .education-section,
-  .extracurricular-section {
+  .experience-card {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .education-logo,
-  .wave-image {
+  .experience-image {
     width: 120px;
+    height: auto;
     margin-top: 15px;
     align-self: center;
   }
